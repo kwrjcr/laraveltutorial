@@ -1,9 +1,9 @@
 <?php
 
-namespace BCG\Repositories;
+namespace App\Repositories;
 
-use BCG\Models\User;
-use BCG\Models\Task;
+use App\Models\User;
+use App\Models\Task;
 
 
 class TaskRepository

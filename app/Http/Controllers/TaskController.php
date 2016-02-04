@@ -1,12 +1,12 @@
 <?php
 
-namespace BCG\Http\Controllers;
+namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use BCG\Http\Requests;
-use BCG\Http\Controllers\Controller;
-use BCG\Models\Task;
-use BCG\Repositories\TaskRepository;
+use App\Http\Requests;
+use App\Http\Controllers\Controller;
+use App\Models\Task;
+use App\Repositories\TaskRepository;
 
 
 class TaskController extends Controller

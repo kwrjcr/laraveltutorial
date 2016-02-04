@@ -1,9 +1,9 @@
 <?php
 
-namespace BCG\Policies;
+namespace App\Policies;
 
-use BCG\Models\User;
-use BCG\Models\Task;
+use App\Models\User;
+use App\Models\Task;
 use Illuminate\Auth\Access\HandlesAuthorization;
 
 class TaskPolicy
